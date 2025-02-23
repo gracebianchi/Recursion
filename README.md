@@ -21,8 +21,8 @@ assert reverseString("CMPSC9") == "9CSPMC"
 removeSubString(s, sub) - The parameters s and sub are strings that contain at least one character. This function will return a string where all occurrences of sub are removed in the order it appears in the string s (see example test below for an interesting case). Your solution SHOULD NOT use the string’s replace method and follow the three laws of recursion.
 Example test
 assert removeSubString("Lolololol", "lol") == "Loo"
-# The first "lol" is removed, which reduces the string 
-# to: "Loolol". Then the 2nd "lol" is removed, which 
-# reduces the string to: "Loo"
+### The first "lol" is removed, which reduces the string 
+### to: "Loolol". Then the 2nd "lol" is removed, which 
+### reduces the string to: "Loo"
 testFile.py pytest
 This file will contain unit tests using pytest to test if your functionality is correct. Write your own tests first in order to check the correctness of your recursive function. Again, Gradescope requires testFile.py to be submitted before running any autograded tests. You should write 3 - 5 tests per function.
