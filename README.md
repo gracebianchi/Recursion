@@ -1,6 +1,7 @@
-# Recursion
+## Recursion
 
-Recursive function definitions and specifications
+# Recursive function definitions and specifications
+
 You will write five recursive functions for this lab. Each one is specified below. One example test will be given, but you should write 3 - 5 explicit tests for each function (think of various interesting cases when writing your tests!).
 
 Note: You must write each function recursively in order to receive any credit, even if Gradescope’s tests pass. For this lab, you may not (and need not) define additional helper functions.
